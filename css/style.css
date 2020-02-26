@@ -2348,11 +2348,16 @@ a.navbar-brand span {
 }
 /*--//responsive--*/
 
-.registerBtn{
+.register-btn{
     padding: 30px 0px 20px 0px;
 }
 
 .infoText{
+    text-shadow: 0px 0px 5px #ffffff;
     font-size: 25px;
+}
+
+.heading-text{
+    text-shadow: 0px 0px 16px #000000;
 }
 
