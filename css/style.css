@@ -230,9 +230,6 @@ header .device-container .screen img {
 }
 
 @media (min-width: 768px) {
-    header {
-        min-height: 100%;
-    }
 
     header .header-content {
         text-align: left;
@@ -254,7 +251,6 @@ header .device-container .screen img {
 
     header .device-container {
         max-width: none;
-        max-height: calc(0vh);
         margin: 100px auto 0;
     }
 }
@@ -705,13 +701,12 @@ p.flex-caption {
 
 .timer{
     line-height: 1;
-    padding: 20px;
-    font-size: 40px;
     margin: 0 auto;
     text-align: center;
     color: white;
     background: #222;
     font-weight: 100;
+    width: fit-content;
 }
 
 #hours span, #days span,  #minutes span,  #seconds span{
@@ -720,32 +715,30 @@ p.flex-caption {
     color: #ccb2b2;
 }
 
+.time{
+    font-size: 40px;
+    padding: 10px;
+    display: table-cell;
+}
+
 #days {
-  font-size: 70px;
   color: #db4844;
-  padding: 20px;
-  display: table-cell;
 }
 #hours {
-  font-size: 70px;
   color: #f07c22;
-  padding: 20px;
-  display: table-cell;
 }
 #minutes {
-  font-size: 70px;
   color: #f6da74;
-  padding: 20px;
-  display: table-cell;
 }
 #seconds {
-  font-size: 40px;
   color: #abcd58;
-  padding: 20px;
-  display: table-cell;
 }
 
 .bg-dark{
     background-color: #222;
-    padding: 0 0;
+    padding: 30px 0;
+}
+
+.device-container img{
+    width: 100%;
 }
