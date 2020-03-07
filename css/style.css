@@ -712,7 +712,6 @@ p.flex-caption {
     color: white;
     background: #222;
     font-weight: 100;
-    width: max-content;
 }
 
 #hours span, #days span,  #minutes span,  #seconds span{
