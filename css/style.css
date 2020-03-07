@@ -85,6 +85,7 @@ p {
     font-weight: 200;
     letter-spacing: 1px;
     color: #4f0037;
+    font-size: 20px;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -102,7 +103,7 @@ p {
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 11px;
+    font-size: 20px;
 }
 
 .navbar-default .nav > li > a,
@@ -740,4 +741,8 @@ p.flex-caption {
 
 .device-container img{
     width: 100%;
+}
+
+.text-muted{
+    font-size: 20px;
 }
